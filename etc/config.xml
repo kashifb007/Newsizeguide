@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Lindybop_Newsizeguide>
+            <version>0.0.1</version>
+        </Lindybop_Newsizeguide>
+    </modules>    
+    <global>
+        <helpers>
+           <lindybop_newsizeguide>
+               <class>Lindybop_Newsizeguide_Helper</class>
+           </lindybop_newsizeguide>           
+        </helpers>
+        <resources>
+            <newsizeguide_setup>
+                <setup>
+                    <module>Lindybop_Newsizeguide</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </newsizeguide_setup>
+        </resources>
+    </global>    
+</config>
